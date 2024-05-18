@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding-top: 20px;
+    padding-inline: 190px;
+}
+
+header > div {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.right-items, .left-items > p, .left-items > button {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    background-color: #1F2937;
+    padding-bottom: 80px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-inline: 190px;
+}
+
+.left-items > button {
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.info > img {
+    height: 250px;
+    width: auto;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 8900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.example {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.pair > img {
+    height: 180px;
+    width: auto;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    padding-block: 100px;
+    padding-inline: 250px;
+}
+
+.quote > #signature {
+    text-align: end;
+}
+
+.call {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 190px;
+    margin-left: 190px;
+    padding-inline: 110px;
+    padding-block: 45px;
+    border-radius: 5px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.call-left > p {
+    margin: 0;
+    color: #E5E7EB;
+}
+
+.call > button {
+    background-color: transparent;
+    border-color: white;
+    height: 40px;
+    width: 140px;
+    border-radius: 8px;
+    border-style: solid;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #1F2937;
+    padding-block: 40px;
+    text-align: center;
+    color: #E5E7EB;
+}
